@@ -1,0 +1,97 @@
+        .maincontainer{
+            height: 842px;
+            width: 595px;
+            margin: 0 auto;
+            border: 1px solid black;
+            font-family: 'Dosis', sans-serif;
+            display: flex;
+        }
+        .aside{
+            width: 30%;
+            height: 842px;
+            background-color: #e2e2e2;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .headblue{
+            color: #324557;
+        }
+        .userdetails{
+            margin: 0 auto;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .userimagecontainer{
+            margin-top: 15px;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        .seperator{
+            margin-top: 5px;
+            border: 1px solid #324557;
+        }
+        .name{
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .name h5{
+            font-size: 24px;
+            letter-spacing: 2;
+            font-weight: 300;
+            margin: 0 auto;
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+        }
+        .cwireframe{
+            display: flex;
+            box-sizing: border-box;
+            padding: 4px;
+        }
+        div.mail > .ccontent{
+            margin-left: 8px;
+            font-weight: bolder;
+        }
+        .cicon{
+            flex: 1;
+        }
+        div.contactheader{
+            text-align: center;
+        }
+        div.contactheader h4{
+            margin: 0;  
+            font-weight: bolder;
+            letter-spacing: 1.5;
+        }
+        div.cicon img{
+            height: 25px;
+        }
+        div.ccontent p{
+            margin: 0;
+            font-size: small;
+            font-weight: bolder;
+        }
+        .ccontent{
+            flex: 2;
+        }
+        div.address > .ccontent{
+            font-size: small;
+            font-weight: bolder;
+        }
+        .socialbuttons{
+           display: flex;
+            justify-content: space-around;
+            box-sizing: border-box;
+            padding: 10px 5px;
+            height: 50px;
+        }
+        .socialbuttons > a > img {
+            width: 25px;
+        }
+
