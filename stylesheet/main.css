@@ -9,9 +9,10 @@
         padding-left: 4px;
         padding-right: 4px; 
     }
-    .one{
-        background-color: aquamarine;
-        flex: 3;
+    div.main > div.seperator{
+        width: 90%;
+        margin: 5px auto;
+        border: 1px solid #324557;
     }
     .educationpanel{
         flex: 1;
@@ -177,7 +178,6 @@
     }
     div.pcontent  > ul {
         list-style:decimal-leading-zero;
-        list-style: none;
     }
     div.content > .projectelement > div.technology{
         display: flex;
