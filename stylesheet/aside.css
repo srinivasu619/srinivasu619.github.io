@@ -6,7 +6,7 @@
 */
 
 .maincontainer {
-    height: 842px;
+    height: 950px;
     width: 595px;
     margin: 0 auto;
     border: 1px solid black;
@@ -16,7 +16,7 @@
 
 .aside {
     width: 30%;
-    height: 842px;
+    height: inherit;
     background-color: #e2e2e2;
     padding: 10px;
     box-sizing: border-box;
@@ -28,7 +28,9 @@
 
 .userdetails {
     margin: 0 auto;
-    height: 250px;
+    height: 200px;
+    padding-top: 50px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
