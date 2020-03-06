@@ -1,203 +1,67 @@
-.main{
-        width: 70%;
-        height: inherit;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        padding-left: 4px;
-        padding-right: 4px; 
-    }
-    div.main > div.seperator{
-        width: 90%;
-        margin: 5px auto;
-        border: 1px solid #324557;
-    }
-    .educationpanel{
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        padding: 8px;
-        margin-bottom: 18px;
-    }
-    div.educationheader{
-        display: flex;
-        box-sizing: border-box;
-    }
-    div.eicon {
-        box-sizing: border-box;
-        flex: 1;
-        align-items: center;
-        padding-left: 20px;
-    }
-    div.eicon > img {
-        height: 60px;
-    }
-    div.eheader{
-        flex: 3;
-    }
-    div.eheader > h3{
-        letter-spacing: 2;
-    }
-    div.econtent{
-        display: flex;
-        box-sizing: border-box;
-        padding: 4px;
-    }
-    div.eyear{
-        flex: 1;
-        box-sizing: border-box;
-        padding-left: 6px;
-    }
-    div.edescription{
-        flex: 3;
-    }
-    div.edescription > p{
-        margin: 0;
-    }
-    .skillspanel{
-        flex: 2;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        padding: 8px;
-    }
-    div.skillsheader{
-        display: flex;
-        box-sizing: border-box;
-    }
-    div.sicon {
-        box-sizing: border-box;
-        flex: 1;
-        align-items: center;
-        padding-left: 20px;
-    }
-    div.sicon > img {
-        height: 50px;
-    }
-    div.sheader{
-        flex: 3;
-    }
-    div.sheader > h3{
-        letter-spacing: 2;
-    }
-    div.skillslist{
-        display: flex;
-        box-sizing: border-box;
-        padding: 8px;
-    }
-    div.skillelements{
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-    div.skillelements > div.element{
-        display: flex;
-        padding: 4px;
-    }
-    div.skillelements > div.element > div.eleicon{
-        flex: 1;
-    }
-    div.skillelements > div.element > div.eletitle{
-        flex: 2;
-    }
-    div.skillelements > div.element > div.eleicon > img {
-        height: 25px;
-    }
-    div.languages{
-        display: flex;
-        flex-direction: column;
-    }
-    div.languageheader{
-        display: flex
-    }
-    div.licon{
-        flex: 1;
-        padding-top: 20px;
-    }
-    div.ltitle{
-        flex: 3;
-    }
-    div.languageheader  > div.licon > img{
-        height: 25px;
-    }
-    div.ltitle > h4{
-        letter-spacing: 2;
-        margin-bottom: 0;
-    }
-    div.languagelist{
-        display: flex;
-        flex-direction: column;
-    }
-    div.languagelist > ul{
-        list-style: none;
-    }
-    div.projectpanel{
-        flex: 3;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        padding: 8px;
-        margin-bottom: 8px;
-    }
-    div.projectheader{
-        display: flex;
-        box-sizing: border-box;
-    }
-    div.picon{
-        flex: 1;
-        padding-left: 20px;
-    }
-    div.picon img{
-        height: 50px;
-    }
-    div.ptitle{
-        flex: 3;
-    }
-    div.ptitle h3{
-        letter-spacing: 1.5;
-    }
-    div.pcontent{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    div.pcontent > .projectelement{
-        display: flex;
-    }
-    div.pcontent > .projectelement > div.technology{
-        flex: 2;
-    }
-    div.pcontent > .projectelement > div.description{
-        flex: 3;
-    }
-    div.description strong{
-        letter-spacing: 1.5;
-    }
-    div.pcontent  > ul {
-        list-style:decimal-leading-zero;
-    }
-    div.content > .projectelement > div.technology{
-        display: flex;
-    }
-    .projectelement{
-        display: flex;
-        margin-bottom: 12px;
-    }
-    .projectelement > div.technology{
-        flex: 2;
-    }
-    .projectelement > div.description{
-        flex: 6;
-        font-size: 14px;
-    }
-    
-    div.technology img{
-        height: 25px;
-    }
-    
-    div.pcontent > ul {
-        padding: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    color: #333;
+    background: #f1f2f6;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 8vh;
+    padding: 0 2%;
+}
+
+nav>.logo>.logo-img {
+    background: #333;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+nav>.logo>.logo-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+main {
+    min-height: 84vh;
+    flex-direction: column;
+}
+
+main .title {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+footer {
+    height: 8vh;
+    justify-content: flex-end;
+    padding: 0 2%;
+}
+
+footer>.social-actions>a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 24px;
+    font-size: 1.5em;
+}
